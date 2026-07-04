@@ -1,0 +1,22 @@
+# Terraform state and cache
+**/.terraform/*
+**/.terraform.lock.hcl
+*.tfstate
+*.tfstate.*
+crash.log
+crash.*.log
+
+# Local-only backend and variable overrides
+**/backend.hcl
+*.auto.tfvars
+*.auto.tfvars.json
+
+# Editor and OS
+.DS_Store
+.vscode/
+
+# Python
+**/__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
